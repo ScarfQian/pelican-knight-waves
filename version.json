@@ -1,0 +1,106 @@
+{
+  "project": "鹈鹕骑士 · 波次远征",
+  "project_id": "pelican-knight-waves",
+  "version": "0.4.0",
+  "stage": "development-prototype",
+  "updated_at": "2026-10-27",
+  "workspace": "/Users/qianweijin/Library/Mobile Documents/com~apple~CloudDocs/10-开发/2-Game/2-鹈鹕骑士-波次远征",
+  "entry": "index.html",
+  "snapshot": "versions/v0.4.0/index.html",
+  "prototype": "versions/prototype/261026-pelican-ride.html",
+  "last_change": "20261027-009",
+  "changelog": "CHANGELOG.md",
+  "development_log": "docs/DEVELOPMENT.md",
+  "handoff": "docs/HANDOFF.md",
+  "design_plan": "docs/261027-失落城堡2系统学习与复刻计划.md",
+  "design_plan_version": "V3",
+  "implementation": "top-down-30-waves-elite-cards-essence-forge-run-reset-map-clear-checkpoint",
+  "asset_library": {
+    "version": "1.1.1",
+    "catalog": "assets/catalog.json",
+    "graphics": "assets/sprites.svg",
+    "gallery": "docs/assets.html",
+    "overview": "docs/assets-overview.png",
+    "guide": "assets/README.md",
+    "sync_command": "python3 tools/sync_assets.py",
+    "cards": 40,
+    "baseline_game_version": "0.3.0",
+    "visual_status": "inherited-r2-art-preserved-without-redrawing",
+    "detail": "docs/assets-detail.png",
+    "visual_game_version": "0.3.2",
+    "active_assets": 37,
+    "active_revision": 2,
+    "usage_game_version": "0.4.0"
+  },
+  "save_schema": {
+    "key": "pelican-waves-save-v1",
+    "schema_version": 1,
+    "project": "pelican-knight-waves",
+    "legacy_policy": "do-not-read-or-migrate-original-project-saves",
+    "checkpoint": "map-clear-only-no-mid-combat-resume"
+  },
+  "versioning": "git-branches-pull-requests-immutable-snapshots-and-change-logs",
+  "repository": "https://github.com/ScarfQian/pelican-knight-waves",
+  "deployment": {
+    "provider": "github-pages",
+    "url": "https://scarfqian.github.io/pelican-knight-waves/",
+    "branch": "main",
+    "path": "/",
+    "status": "prepared-for-initial-publication",
+    "published_version": null
+  },
+  "verification": {
+    "javascript_syntax": "checked-parse-only",
+    "source_review": "completed-static-only",
+    "markup_references": "checked-static",
+    "asset_source_sync": "checked",
+    "art_source": "unchanged-from-original-0.3.2",
+    "snapshot": "matches-current-entry",
+    "document_links": "checked",
+    "browser_playthrough": "not-run",
+    "automated_tests": "not-run",
+    "mobile_playthrough": "not-run",
+    "performance_tests": "not-run",
+    "gameplay_acceptance": "pending-not-executed",
+    "online_delivery": "pending"
+  },
+  "repository_delivery": {
+    "date": "2026-10-27",
+    "branch": "main",
+    "status": "prepared-for-new-repository",
+    "initial_publication": "user-authorized",
+    "future_main_merge": "user-decides-per-pull-request"
+  },
+  "origin_project": {
+    "repository": "https://github.com/ScarfQian/pelican-knight",
+    "version": "0.3.2",
+    "merge_commit": "4ce07ded5835f9abb83c41018b4ea4f439b46a8b",
+    "merged_pull_request": "https://github.com/ScarfQian/pelican-knight/pull/1",
+    "art_policy": "all-sprite-source-and-asset-identities-preserved"
+  },
+  "rules": {
+    "waves": 30,
+    "elite_every": 5,
+    "forge_every": 10,
+    "boss_wave": 30,
+    "elite_at_boss_wave": true,
+    "growth_scope": "current-expedition",
+    "end_resets": [
+      "essence",
+      "cards",
+      "equipment-levels"
+    ],
+    "map_clear_preserves": [
+      "loadout",
+      "equipment-levels",
+      "cards",
+      "essence",
+      "hp",
+      "mounted"
+    ],
+    "available_maps": [
+      "coast"
+    ],
+    "next_map": "not-implemented"
+  }
+}
