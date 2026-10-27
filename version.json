@@ -46,8 +46,8 @@
     "url": "https://scarfqian.github.io/pelican-knight-waves/",
     "branch": "main",
     "path": "/",
-    "status": "prepared-for-initial-publication",
-    "published_version": null
+    "status": "published",
+    "published_version": "0.4.0"
   },
   "verification": {
     "javascript_syntax": "checked-parse-only",
@@ -62,14 +62,15 @@
     "mobile_playthrough": "not-run",
     "performance_tests": "not-run",
     "gameplay_acceptance": "pending-not-executed",
-    "online_delivery": "pending"
+    "online_delivery": "pages-build-built-public-version-0.4.0-and-html-matched-without-execution"
   },
   "repository_delivery": {
     "date": "2026-10-27",
     "branch": "main",
-    "status": "prepared-for-new-repository",
+    "status": "initial-main-published",
     "initial_publication": "user-authorized",
-    "future_main_merge": "user-decides-per-pull-request"
+    "future_main_merge": "user-decides-per-pull-request",
+    "implementation_commit": "c9b00c45f8eb25b91bb91a49247df7863332dfab"
   },
   "origin_project": {
     "repository": "https://github.com/ScarfQian/pelican-knight",

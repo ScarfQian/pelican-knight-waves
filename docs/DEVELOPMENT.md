@@ -447,3 +447,8 @@ H1—H4 的基础代码及 H5 的穿戴、九天赋、五项可用委托已写�
 ### 实际核对范围
 
 JavaScript 仅解析，不执行；静态检查 ID、DOM/SVG 引用、资产来源同步、历史素材一致性、入口/快照与本地文档链接；手动审阅清场、奖励、商店、结束清零和通关保留的代码路径。检查发现自动攻击可能持续占用动作窗口，已给予主动技能优先级；致命受击后不再让同帧掉落补血撤销失败。未运行游戏、浏览器试玩、移动端、自动化游戏测试或性能测试，30 波平衡与实际手感待验证。
+
+
+### 首次发布回执
+
+已创建公开仓库 https://github.com/ScarfQian/pelican-knight-waves ，初始实现提交 c9b00c45f8eb25b91bb91a49247df7863332dfab，推送到新仓库 main。GitHub Pages 从 main 根目录发布，API 返回 built；在线 version.json 确认为项目 pelican-knight-waves、版本 0.4.0，在线 HTML 与本地入口内容一致。在线入口为 https://scarfqian.github.io/pelican-knight-waves/ 。仅获取公开文件和发布元数据，没有执行游戏。本条及 version.json 的回执随本次首次发布补充登记，不改变玩法或快照。
